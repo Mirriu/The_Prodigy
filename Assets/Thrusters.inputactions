@@ -1,0 +1,52 @@
+{
+    "name": "Thrusters",
+    "maps": [
+        {
+            "name": "Game",
+            "id": "b6b264bd-1d2f-412b-9381-89ece9ea6f9e",
+            "actions": [
+                {
+                    "name": "LeftThruster",
+                    "type": "Value",
+                    "id": "aeb47d97-9d5a-4e29-bd28-833d2ea3356e",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RightThruster",
+                    "type": "Value",
+                    "id": "0e6b359b-228a-4f0b-970c-475cea72f34b",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fd344e0a-96eb-4acb-8c2c-6e4181537ec4",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightThruster",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "13943791-bde3-42f1-95f3-f1db04a360c8",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftThruster",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
