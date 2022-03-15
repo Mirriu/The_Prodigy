@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -61,6 +62,8 @@ public class PlayerController : MonoBehaviour
         audioSource.volume = 0.0f;
         AddWallBoost();
         WallSlowDown();
+
+        if (transform.position.y > 10000) SceneManager.LoadScene(0);
     }
 
     private void SetThrusterStrengths()
