@@ -17,7 +17,7 @@ public class CameraFollow : MonoBehaviour
     private void Update()
     {
         intendedPosition = followObject.position;
-        intendedPosition += (Vector3)followRb?.velocity / 15.0f;
+        intendedPosition += (Vector3)followRb?.velocity / 12.0f;
 
 
         transform.position = intendedPosition;
